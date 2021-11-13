@@ -23,7 +23,6 @@ datos$dosis <- as.factor(datos$dosis)
 
 cant_trabajadores <- 712
 
-
 a<-datos %>% 
   filter(!is.na(fecha)) %>% 
   arrange(dosis, fecha) %>% 
