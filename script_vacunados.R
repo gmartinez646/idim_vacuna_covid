@@ -21,8 +21,7 @@ vac_mes_aux$dosis <- "2da"
 datos <- rbind(vac_mes, vac_mes_aux)
 datos$dosis <- as.factor(datos$dosis)
 
-cant_trabajadores <- 89
-452
+cant_trabajadores <- 712
 
 
 a<-datos %>% 
